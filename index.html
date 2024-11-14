@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1>Hello World!</h1> -->
+
+    <form>
+      <!-- ფორმის შიგნით ვწერთ ინფუთებს სულ,აკავშირებს ერთმანეთთან, დივების პონტია -->
+      <input type="text" />
+      <input type="submit" />
+      <!-- <input type="password" />
+      <input type="color" />
+      <input type="date" />
+      <input type="checkbox" />
+      <input type="radio" />
+      <input type="email" /> -->
+      <!--ინსფექტ პაროლი ვშლით და ვცვლი ტექსტ და ვნახულობ პაროლს ჰაჰა-->
+
+      <label for="firstname">Please Enter Your First Name</label>
+      <input type="text" id="firstname" />
+
+      <label for="isAdult">Please Check</label>
+      <input type="checkbox" id="isAdult" />
+
+      <p>Please Select Your Gender</p>
+
+      <label for="female">Female</label>
+      <input type="radio" id="Female" name="gender" />
+      <label for="male">Male</label>
+      <input type="radio" id="Male" name="gender" />
+
+      <input type="range" />
+
+      <input
+        type="email"
+        placeholder="enter your email here"
+        maxlength="10"
+        minlength="8"
+      />
+
+      <a
+        href="https://dribbble.com/jobs/266417-UX-UI-Designer?source=index"
+        target="_blank"
+        >Go to Reeducate
+      </a>
+    </form>
+
+    <!-- classwork -->
+    <h1>Registration Form</h1>
+    <div style="background-color: gray; height: 300px; width: 400px">
+      <form>
+        <div>
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" />
+        </div>
+        <div>
+          <label for="lasttname">Last Name</label>
+          <input type="text" id="firstname" />
+        </div>
+        <div>
+          <label for="nickname">Nick Name</label>
+          <input type="text" id="firstname" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="mail" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" />
+        </div>
+        <div>
+          <label for="dateofbirth">Date Of Birth</label>
+          <input type="date" />
+        </div>
+        <div>
+          <span style="color: red">Gender</span>
+          <label for="female">Female</label>
+          <input type="radio" id="Female" name="gender" />
+          <label for="male">Male</label>
+          <input type="radio" id="Male" name="gender" />
+          <label for="Others">Others</label>
+          <input type="radio" id="Others" name="gender" />
+        </div>
+        <div>
+          <label for="mobile">Mobile</label>
+          <input type="number" />
+        </div>
+        <div>
+          <label for="Adrress">Adrress</label>
+          <input type="text" />
+        </div>
+        <div>
+          <input type="submit" />
+          <input type="reset" />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Adrress"
+            style="width: 100px; height: 250px"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
